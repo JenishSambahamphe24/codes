@@ -1,0 +1,66 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.con{
+    max-width: 1170px;
+    margin: auto;
+    background-color: red;
+}
+header{
+    display: flex;
+     justify-content: space-around;
+     color: white;
+     padding: 20px;
+}
+@media (min-width: 765px) and (max-width:1120px){
+     header{
+        flex-direction: column; 
+        color: yellowgreen;
+     }
+     nav ul li{
+         display: block;
+     }
+    section{
+        display: block;
+    }
+
+}
+@media (min-width:765px){
+    nav button{
+        display: none;
+    }
+    section{
+        display: block;
+    }
+}
+@media (max-width:764px){
+      nav ul{
+          display: none;
+      }
+}
+/* (min-width: 481px) and (max-width:765px) this is the standard screen-size for tablet and mobile */
+nav{
+    background: green;
+    line-height: 50px;
+}
+nav li{
+     display: inline-block;
+}
+nav ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    margin:50px;
+    
+}
+section{
+    display: flex;
+}
+section main{
+    background: pink;
+}
+section aside{
+    background-color: purple;
+}

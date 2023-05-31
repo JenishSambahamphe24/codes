@@ -1,0 +1,28 @@
+.container{
+    border: 2px solid black;
+    background-color: yellowgreen;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    ' navbar navbar navbar navbar'
+    ' . menu content sidebar'
+    'footer footer footer footer ';
+}
+.items{
+    border: 2px solid teal;
+}
+.navbar{
+    grid-area: navbar;
+}
+.menu{
+    grid-area: menu;
+}
+.content{
+    grid-area: content;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.footer{
+    grid-area: footer;
+}

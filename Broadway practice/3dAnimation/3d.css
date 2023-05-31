@@ -1,0 +1,23 @@
+.box{
+   width: 200px;
+   height: 200px;
+}
+.a{
+    background: blueviolet;
+    animation-name: Jenish;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    position: absolute;
+    animation-iteration-count: 2;
+    animation-direction:normal;
+    animation-fill-mode: forwards;
+}
+@keyframes Jenish{
+    from,
+ 10%{ background: red; left: 0px;}
+ 40%{background: teal; left: 400px;}
+ 80%{background: yellowgreen; left:800px;}
+ 99%{background: yellow; left:0px;}
+}
+
+

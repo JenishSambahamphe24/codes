@@ -1,0 +1,13 @@
+.container{
+    width: 100vw;
+    height: 20vw;
+    border: 2px solid black;
+    display: flex;
+}
+.container-inner{
+    border: 2px solid red;
+    height: 10vw;
+    width: 10vw;
+    margin: 8px;
+    padding: 10px;
+}

@@ -1,0 +1,43 @@
+body{
+    background-color:#6D5434;
+    box-sizing: border-box;
+}
+.page{
+    margin: 0 auto;
+    background-color: white;
+    width: 780px;
+    height: 400px;
+}
+.header{
+    padding: 10px;
+}
+.logo{
+    width: 30%;
+    background-color:#4E3525;
+    float: left;
+    height: 156px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.logo h1{
+    color: white;
+}
+.logo h2{
+    color: gold;
+}
+.image-box{
+    width:65%;
+    height:156px;
+    float:right;
+    margin-left:7px;
+    background: rgb(39, 12, 12);
+
+}
+.clear{
+    clear: both;
+}
+.menu{
+    background-color: #4E3525;
+    color: white;
+    clear: both;
+}

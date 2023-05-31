@@ -1,0 +1,11 @@
+#exampleFormControlTextarea1{
+    height: 35vh;
+    width: 70vw;
+}
+.text-summary{
+    margin-left: 105px;
+    margin-top: 30px;
+}
+#result{
+    font-size: 25px;
+}

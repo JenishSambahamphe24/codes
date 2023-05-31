@@ -1,0 +1,18 @@
+.container{
+    border: 2px solid grey;
+}
+.item{
+   height: 100px;
+   width: 300px;
+   border: 2px solid black;
+   display: inline-block
+}
+.item-box{
+  background: teal;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+.service-box{
+  padding:25px 0; border:1px solid black; border-radius:20px; height: 100px ; width: 350px;
+}

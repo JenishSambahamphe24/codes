@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=PT+Serif:ital,wght@1,400;1,700&family=Quintessential&display=swap');
+body{
+    font-family: Montserrat;
+}
+.bg5{
+    background-color: aquamarine;
+}
+.wami{
+ background:rgb(71, 55, 55);
+}
+p{
+    font-size: large;
+}
+.btn{
+    background: white;
+}
+.jenish p{
+    font-size: 15px;
+}

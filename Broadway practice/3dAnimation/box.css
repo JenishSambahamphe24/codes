@@ -1,0 +1,49 @@
+/* .box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    animation-name: jenish;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    position: relative;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+@keyframes jenish{
+   from,
+   0%{left: 200px;}
+   25%{left: 400px;}
+   50%{ left: 600px;}
+   100%{left: 800px;}
+}
+.A{
+    animation-timing-function: linear;
+}
+.B{
+    animation-timing-function: ease-in;
+}
+.C{
+    animation-timing-function:ease-out;
+}
+.D{
+    animation-timing-function: steps(4,end);
+} */
+body{
+    background: black;
+    white-space: pre;
+}
+
+h1{
+    width: 60px;
+    overflow: hidden;
+    color: red;
+    animation-name: typing;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-direction: normal; 
+}
+ @keyframes typing{
+    from,
+    0%{width: 100px;}
+    100%{width: 800px;}
+} 

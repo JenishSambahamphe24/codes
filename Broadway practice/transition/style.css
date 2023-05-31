@@ -1,0 +1,45 @@
+.box{
+    width: 200px;
+    height: 200px;
+}
+.a{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    transition-duration: 2s;
+    /* transition-delay: ; */
+}
+.a:hover{
+    /* width: 400px;
+    height: 400px; */
+    transform: rotate(90deg);
+}
+.b{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+}
+.c{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    transition-duration: 2s;
+}
+.c:hover{
+        transform: skew(40deg,-30deg);
+}
+.d{
+    background-color: brown;
+
+}
+.d:hover{
+    transform: scale(3,2);
+}
+.d{
+    background-color: grey;
+    transition-duration: 2s;
+    transform-origin: right bottom;
+}
+.d:hover{
+    transform: rotate(90deg) translate(200px,300px);
+}

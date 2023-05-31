@@ -1,0 +1,129 @@
+.mobile-screen {
+  float: left;
+}
+.mobile-container {
+  width: 60px;
+  display: grid;
+  border: 2px solid black;
+  grid-template-columns: 60px;
+  grid-template-rows: 30px 30px 50px 60px 40px 40px 35px;
+}
+.item {
+  border-bottom: 1.5px solid goldenrod;
+  padding: 5px;
+  color: white;
+}
+.header {
+  background-color: red;
+}
+.menu {
+  background-color: blue;
+}
+.head {
+  background-color: skyblue;
+}
+.main {
+  background-color: black;
+}
+.banner {
+  background-color: yellowgreen;
+}
+.extra {
+  background-color: rgb(65, 129, 108);
+}
+.image {
+  background-color: rgb(46, 158, 158);
+}
+/* fo desktop */
+.desktop-screen {
+  float: right;
+}
+.d-container {
+  float: right;
+  width: 500px;
+  display: grid;
+  border: 2px solid black;
+  grid-template-areas:
+    "a b b b"
+    "c c c c"
+    "d d . f"
+    "d d . e"
+    "g g g g";
+  text-align: center;
+  grid-template-columns: 50px 300px 400;
+  grid-template-rows: 30px 120px 40px 40px 50px;
+}
+.d-items {
+  border: 1px solid rgb(71, 67, 67);
+  color: white;
+  padding: 10px;
+}
+.d-header {
+  grid-area: a;
+  background-color: black;
+}
+.d-menu {
+  grid-area: b;
+  background-color: rgb(226, 86, 86);
+}
+.d-hero {
+  grid-area: c;
+  background-color: aquamarine;
+}
+.d-main {
+  grid-area: d;
+  background-color: black;
+}
+.d-extra {
+  grid-area: e;
+  background-color: rgb(25, 112, 112);
+}
+.d-image {
+  grid-area: f;
+  background-color: rgb(114, 194, 194);
+}
+.d-banner {
+  grid-area: g;
+  background-color: rgb(202, 202, 89);
+}
+.clear {
+  clear: both;
+}
+/* for tablet screen  */
+.tablet-container {
+  display: grid;
+  width: 500px;
+  grid-column: 100px 900px 250px;
+  grid-row:  auto auto auto auto;
+}
+.t-items {
+  border: 1px solid black;
+}
+.t-header {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+.t-menu {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+.t-hero {
+  grid-column: 1/2;
+  grid-row: 3/6;
+}
+.t-main {
+  grid-column: 2/4;
+  grid-row: 3/4;
+}
+.t-banner {
+  grid-column: 2/4;
+  grid-row: 4/5;
+}
+.t-extra {
+  grid-column: 2/3;
+  grid-row:5/6 ;
+}
+.t-image {
+  grid-column: 3/4;
+  grid-row:5/6 ;
+}

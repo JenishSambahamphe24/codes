@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #333;
+}
+.page{
+    width: 760px;
+    background: rgb(173, 153, 153);
+    margin: 0 auto;
+    height: 900px;
+}
+.logo img{
+   height: 150px;
+   float: left;
+}
+.contactinfo{
+background:white;
+width: 569px;
+height: 150px;
+float: right;
+text-align: right;
+padding-right: 20px;
+padding-top: 20px;
+line-height: 10px;
+}
+.contactinfo p{
+   font-size:20px ;
+   color: rgb(49, 49, 173);
+}
+.menu{
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.menu button{
+    font-size: 13px;
+    padding: 2px;
+    text-align: center;
+    margin: -1px;
+}
+.menu button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.content{
+    background-color: white;
+    clear: both;
+}
+.content left{
+    width: 60%;
+    float:left;
+}
+.content right{
+    width: 40px;
+    background-color: green;
+}
+.left{
+    float: left;
+    width: 60%;
+    padding: 10px;
+    border-right: 1px dotted #555;
+    margin-top: -3px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    padding: 20px;
+}
+.left h2{
+    color: rgb(66, 66, 141);
+}
+.right{
+    width: 40%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -3px;
+    background-color: white;
+    color:rgb(35, 35, 80) ;
+    height: 551px;
+    padding: 20px;
+    line-height: 30px;
+}
+.right topic{
+    list-style-type: none;
+    color: rgb(66, 66, 141);
+}
+.footer{
+    background-color:#044470;
+    width: 760px;
+    padding: 7px;
+    height: 30px;
+    color: white;
+}
+.footer .address{
+    float: left;
+    text-align: center;
+}
+.footer .copyright{
+    float: right;
+    text-align: center;
+}
+.clear{
+    clear: both;
+} 
